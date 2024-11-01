@@ -71,8 +71,14 @@ iframe {
   padding: 100px;
 }
 
-#fav-icon {
-  max-height: fit-content;
+.profile-photo {
+border-radius: 360px;
+}
+
+.photo-credential {
+  width: 400px;
+  border: 2px black solid;
+
 }
 
 #site-header {
@@ -95,3 +101,17 @@ h1 {
   animation-duration: 15s;
 }
 
+@keyframes picture-animation {
+  from {
+      border: 0px rgb(0, 0, 0) solid;
+  }
+
+  to {
+      border: 10px rgb(0, 0, 0) solid;
+  }
+}
+
+.picture-animation {
+  animation-name: picture-animation;
+  animation-duration: 15s;
+}
