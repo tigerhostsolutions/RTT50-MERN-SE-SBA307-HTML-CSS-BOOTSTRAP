@@ -1,0 +1,97 @@
+@import url(nav_menu.css);
+
+body {
+background-color: rgba(0, 0, 0, 1);
+  background-image: url(../assets/images/Workflow/spyder-charging-pad.jpeg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: top right;
+  color: rgb(240, 248, 255);
+}
+
+h3 {
+  padding:10px;
+}
+
+hr {
+  width: 25%;
+  margin: 8px 0;
+}
+
+iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.iframe-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-top: 50%;
+  padding-bottom: 0; 
+  /* box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16); */
+  margin-top: 1.6em;
+  margin-bottom: 0.9em;
+  overflow: hidden;
+  border-radius: 8px;
+  will-change: transform;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.contact,
+.nav-item {
+  padding: 5px;
+  list-style: none;
+  display: inline-block;
+}
+
+.credential,
+.institution {
+  list-style: none;
+}
+
+.institution {
+  font-weight: bold;
+}
+
+.credential {
+  font-style: italic;
+}
+
+.container-full {
+  background-color: rgba(245, 245, 220, .3);
+  padding: 100px;
+}
+
+#fav-icon {
+  max-height: fit-content;
+}
+
+#site-header {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+@keyframes h1-animation {
+  from {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  to {
+    font-family: cursive;
+  }
+}
+
+h1 {
+  animation-name: h1-animation;
+  animation-duration: 15s;
+}
+
